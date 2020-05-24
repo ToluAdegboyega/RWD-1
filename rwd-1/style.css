@@ -1,0 +1,91 @@
+$blue: #a3d5d3;
+
+body {
+  background-color: white;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(238, 238, 238);
+  border: solid;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  margin-left: 10px;
+  margin-right:10px;
+  border-radius:7px;
+  border-color: rgb(238, 238, 238);
+  justify-content: center;
+  align-items: center;
+ 
+}
+
+h1 {
+  text-align: center;
+  font-size: bold;
+  
+}
+
+#tribute-info {
+  text-align: center;
+  font-size: bold;
+  font-family: Helvetica;
+}
+
+#image {
+  margin: auto;
+  width: 80%;
+  height: auto;
+  display: block;
+  max-width: 80%;
+  max-height: auto;
+  position: relative;
+}
+
+#img-div {
+  font-family: Helvetica;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin-top: 0;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 50px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 50px;
+  
+}
+
+#img-caption {
+   text-align: center;
+}
+
+#article {
+  font-family: Helvetica;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 50px auto;
+  line-height: 1.6;
+  max-width: 550px;
+  list-style-type: disc;
+}
+
+#article h2 {
+  font-size: 20px;
+  text-align: center;
+
+}
+
+#other {
+  font-family: Helvetica;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
